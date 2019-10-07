@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+}
+.d-flex {
+    display: flex;
+}
+a, a:hover {
+    text-decoration: none;
+    outline: none;
+    color:#ffffff;
+}
+.section-one .icon-2 ul#list a:hover {
+    color: white;
+}
+.top-nav {
+    background-color: #f8f8f8;
+    padding: 12px 6px;
+}
+.top-nav .container ul.menu-bar {
+    display: flex;
+    margin-left: 700px;
+    padding-left: 5px;
+    border-right: 1px solid #1e1e1e;
+}
+.top-nav .container ul.menu-bar li#nav-pad {
+    border: 1px solid #000000;
+    background-color: #008000;
+    text-align: center;
+    padding-right: 0px;
+}
+.top-nav .container ul.menu-bar li {
+    border-right: 1px solid #d3d3d3;;
+    margin-left: auto;  
+}
+.top-nav .container ul.menu-bar li:last-child {
+    border-right: none;
+}
+.top-nav .container ul.menu-bar li a {  
+    margin-left: 4px;
+    padding-right: 20px;
+    color: #1e1e1e;
+    flex: 1;
+    font-weight: 2em;
+}
+.top-nav .container ul.menu-bar li a:hover {
+    color: #008000;
+}
+.section-one {
+    background: url(../img/welcome.png);
+    height: 500px;
+    width: 100%;
+}
+.section-one .icon-2 ul {
+    display: flex;
+    margin-right: 15px;
+    width: 100%;
+    height: 9px;
+}
+.section-one .icon-2 ul#list {
+    padding-top: 20px;
+    color: #f4f4f4
+}
+.section-one .icon-2 ul#list li#padd a {
+    padding-left: 14px;
+}
+.section-one .icon-2 ul#list a {
+    margin-right: 15px;
+    padding-right: 15px;
+}
+.section-one .icon-2 ul li img {
+    width: 20%;
+    height: 30px;
+    margin-left: 30px;
+}
+.section-one .icon-2 ul li#last {
+    width: 15%;
+    margin-right: 15px;
+}
